@@ -1,3 +1,40 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+   scroll-behavior: smooth
+}
+
+.highlight {
+   @apply bg-yellow-400 border-x-2 border-yellow-500;
+}
+
+.heading {
+   @apply text-[56px] font-semibold;
+}
+
+.paragraph {
+   @apply font-semibold text-black leading-loose m-auto max-w-2xl;
+}
+
+/* cruise through backend */
+.textBox {
+   @apply max-w-md text-left relative w-full z-0;
+}
+
+.title {
+   @apply text-[36px] leading-[44px] mb-5 font-semibold text-black;
+}
+
+.text {
+   @apply text-[18px] text-gray-400;
+}
+
+.imgBox {
+   @apply h-auto w-full p-0;
+}
+
+.num {
+   @apply text-gray-300 font-normal tracking-tighter text-[144px] absolute -z-10 h-[84px];
+}

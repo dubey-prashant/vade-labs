@@ -13,7 +13,7 @@ const CTA = () => {
   return (
     <>
       {/* cta */}
-      <div className='cta max-w-[512px]'>
+      <div className='cta max-w-full'>
         {!register ? (
           <form action='' onSubmit={submitForm} className='flex'>
             <input

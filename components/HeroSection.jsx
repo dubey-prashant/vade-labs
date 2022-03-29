@@ -1,10 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
-import CTA from '../CTA';
+import CTA from './CTA';
 
 const HeroSection = () => {
   return (
     <>
-      <section className='bg-[#E5E5E] bg-[url("/images/dots.svg")] bg-center bg-no-repeat bg-cover min-h-screen pt-32 pb-60'>
+      <section className='bg-[#E5E5E5] bg-[url("/images/dots.svg")] bg-center bg-no-repeat bg-cover min-h-screen pt-32 pb-60'>
         {/* top grid*/}
         <div className='flex  items-center justify-between '>
           {/* title and cta */}
@@ -12,12 +12,14 @@ const HeroSection = () => {
             <h1 className='text-7xl text-[#2E3B4E] font-black leading-normal'>
               Integrate APIs In Minutes
             </h1>
-            <p className='font-bolder text-black text-[24px] font-bold mt-2 mb-10'>
+            <p className='font-bolder text-gray-700 text-[24px] font-bold mt-2 mb-10'>
               Get ridiculously creative with your products and let us do the
               hard work for you!
             </p>
             {/* CTA */}
-            <CTA />
+            <div className='w-[510px]'>
+              <CTA />
+            </div>
           </div>
 
           {/* video */}

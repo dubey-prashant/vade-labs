@@ -2,7 +2,10 @@ import Image from 'next/image';
 
 const Header = () => {
   return (
-    <header className='h-[80px] px-8 flex items-center justify-between cursor-pointer shadow-md'>
+    <header
+      id='top'
+      className='h-[80px] px-8 flex items-center justify-between cursor-pointer shadow'
+    >
       <Image
         src={'/images/logo.svg'}
         alt='logo'
@@ -11,14 +14,14 @@ const Header = () => {
       />
       <div className='flex'>
         <a
-          className='mx-2 text-center text-gray-800 text-[18px] hover:text-opacity-80'
-          href='#'
+          className='mx-2 text-center text-gray-800 font-normal text-[18px] hover:text-gray-500'
+          href='#skipTheHassle'
         >
           Skip the hassle
         </a>
         <a
-          className='mx-2 text-center text-gray-800 text-[18px] hover:text-opacity-80'
-          href='#'
+          className='mx-2 text-center text-gray-800 font-normal text-[18px] hover:text-gray-500'
+          href='#cruiseThroughBackend'
         >
           Cruise through backend
         </a>
