@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const Header = () => {
   return (
-    <header className='h-[80px] px-16 flex items-center justify-between cursor-pointer shadow-md'>
+    <header className='h-[80px] px-8 flex items-center justify-between cursor-pointer shadow-md'>
       <Image
         src={'/images/logo.svg'}
         alt='logo'
@@ -11,13 +11,13 @@ const Header = () => {
       />
       <div className='flex'>
         <a
-          className='mx-4 text-center text-gray-800 text-[18px] hover:text-opacity-80'
+          className='mx-2 text-center text-gray-800 text-[18px] hover:text-opacity-80'
           href='#'
         >
           Skip the hassle
         </a>
         <a
-          className='mx-4 text-center text-gray-800 text-[18px] hover:text-opacity-80'
+          className='mx-2 text-center text-gray-800 text-[18px] hover:text-opacity-80'
           href='#'
         >
           Cruise through backend

@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import CTA from './CTA';
+import CTA from '../CTA';
 
 const HeroSection = () => {
   return (
@@ -8,7 +8,7 @@ const HeroSection = () => {
         {/* top grid*/}
         <div className='flex  items-center justify-between '>
           {/* title and cta */}
-          <div className='text-left pl-64 w-[42%]'>
+          <div className='text-left pl-32 w-[45%]'>
             <h1 className='text-7xl text-[#2E3B4E] font-black leading-normal'>
               Integrate APIs In Minutes
             </h1>
