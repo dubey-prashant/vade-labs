@@ -11,13 +11,13 @@ const Header = () => {
       />
       <div className='flex'>
         <a
-          className='mx-4 text-center text-gray-800 text-[18px] hover:text-opacity-60'
+          className='mx-4 text-center text-gray-800 text-[18px] hover:text-opacity-80'
           href='#'
         >
           Skip the hassle
         </a>
         <a
-          className='mx-4 text-center text-gray-800 text-[18px] hover:text-opacity-60'
+          className='mx-4 text-center text-gray-800 text-[18px] hover:text-opacity-80'
           href='#'
         >
           Cruise through backend
@@ -26,7 +26,7 @@ const Header = () => {
 
       <a
         href='#'
-        className='px-6 py-3 text-[22px] capitalize rounded-lg bg-[#2C4BFF] text-white hover:opacity-80'
+        className='px-6 py-3 text-[22px] capitalize rounded-lg bg-primary text-white hover:opacity-80'
       >
         Get Early Access
       </a>

@@ -4,7 +4,7 @@ import CTA from './CTA';
 const HeroSection = () => {
   return (
     <>
-      <section className='bg-[#E5E5E] bg-[url("/images/dots.svg")] bg-center h-[100vh] pt-32'>
+      <section className='bg-[#E5E5E] bg-[url("/images/dots.svg")] bg-center bg-no-repeat bg-cover min-h-screen pt-32 pb-60'>
         {/* top grid*/}
         <div className='flex  items-center justify-between '>
           {/* title and cta */}
@@ -21,7 +21,7 @@ const HeroSection = () => {
           </div>
 
           {/* video */}
-          <div className=' self-end border rounded-l-[64px] p-8 pr-0 bg-white border-[#333C47] border-r-0'>
+          <div className=' self-end border rounded-l-[64px] p-8 pl-9  pr-0 bg-white border-[#333C47] border-r-0'>
             <img
               src={'/images/video.png'}
               alt='video'

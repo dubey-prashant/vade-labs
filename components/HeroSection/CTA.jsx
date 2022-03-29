@@ -17,19 +17,19 @@ const CTA = () => {
         {!register ? (
           <form action='' onSubmit={submitForm} className='flex'>
             <input
-              className='px-6 h-[60px] text-[18px] w-[55%]  rounded-l-lg leading-none border-[#2C4BFF] border active:outline-none focus:outline-none '
+              className='px-6 h-[60px] text-[18px] w-[55%]  rounded-l-lg leading-none border-primary border active:outline-none focus:outline-none '
               type='email'
               placeholder='email@example.com'
             />
             <input
-              className='px-6 h-[60px] text-[22px] w-[45%] capitalize leading-none rounded-r-lg border-[#2C4BFF] border bg-[#2C4BFF] cursor-pointer text-white hover:opacity-80'
+              className='px-6 h-[60px] text-[22px] w-[45%] capitalize leading-none rounded-r-lg border-primary border bg-primary cursor-pointer text-white hover:opacity-80'
               type='submit'
               value='Get Early Access'
             />
           </form>
         ) : (
           <>
-            <p className='h-[60px] leading-[60px] text-[22px] w-full capitalize  text-center rounded-lg border-[#2C4BFF] border bg-[#2C4BFF] cursor-pointer text-white hover:opacity-80'>
+            <p className='h-[60px] leading-[60px] text-[22px] w-full capitalize  text-center rounded-lg border-primary border bg-primary cursor-pointer text-white hover:opacity-80'>
               Thank you for your interest!
             </p>
 
