@@ -16,16 +16,15 @@ const Footer = () => {
                   className='mx-10'
                   height={'100%'}
                   width={'100%'}
-                  src={'/images/twitter.svg'}
+                  src={'/images/footer/twitter.svg'}
                   alt='twitter'
                 />
               </div>
               <div className='mx-2 w-[20px]'>
                 <Image
-                  className=''
                   height={'100%'}
                   width={'100%'}
-                  src={'/images/linkedin.svg'}
+                  src={'/images/footer/linkedin.svg'}
                   alt='linkedin'
                 />
               </div>
@@ -44,14 +43,19 @@ const Footer = () => {
           <div className='flex-1'>
             <h4 className='text-[#999999] mb-3'>Contact</h4>
             <div className='ml-auto flex items-center justify-center'>
-              <Image width={11} height={11} src='/images/web.svg' alt='web' />
+              <Image
+                width={11}
+                height={11}
+                src='/images/footer/web.svg'
+                alt='web'
+              />
               <p className='pl-1 '>hello@vadelabs.com </p>
             </div>
             <div className='flex items-center justify-center '>
               <Image
                 width={11}
                 height={11}
-                src='/images/phone.svg'
+                src='/images/footer/phone.svg'
                 alt='phone'
               />
               <p className='pl-1 '>+91-7829887887</p>

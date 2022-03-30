@@ -23,16 +23,16 @@ const CruiseThroughBackend = () => {
             services, databases and applications out there.
           </p>
           <img
-            src='/images/dotted.svg'
+            src='/images/cruiseSection/dotted.svg'
             alt='dot line'
             className='absolute bottom-100% left-[50%]'
           />
         </div>
         <div className='imgBox'>
-          <img src='/images/one.png' width={'100%'} alt='one' />
+          <img src='/images/cruiseSection/one.png' width={'100%'} alt='one' />
         </div>
         <div className='imgBox'>
-          <img src='/images/two.png' alt='two' />
+          <img src='/images/cruiseSection/two.png' alt='two' />
         </div>
         <div className='textBox'>
           <span className='num -top-[144px] -right-[144px]'>#2</span>
@@ -49,7 +49,7 @@ const CruiseThroughBackend = () => {
             integrated services.
           </p>
           <img
-            src='/images/dotted2.svg'
+            src='/images/cruiseSection/dotted2.svg'
             alt='dot line'
             className='absolute bottom-105% -left-[50%]'
           />
@@ -71,7 +71,11 @@ const CruiseThroughBackend = () => {
           </p>
         </div>
         <div className='imgBox'>
-          <img src='/images/three.png' className='w-full' alt='three' />
+          <img
+            src='/images/cruiseSection/three.png'
+            className='w-full'
+            alt='three'
+          />
         </div>
       </div>
     </div>
