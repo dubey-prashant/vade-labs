@@ -4,7 +4,7 @@ const HR = () => {
     <>
       {/* horizontal rule */}
       {/* <img src='/images/hr.svg' alt='hr' className='mx-auto my-12 w-[45%]' /> */}
-      <div className='h-[10px] bg-black rounded-[100%] mx-auto my-12 w-[45%]'></div>
+      <div className='h-3 bg-black rounded-[100%] mx-auto my-12 w-[45%]'></div>
     </>
   );
 };
