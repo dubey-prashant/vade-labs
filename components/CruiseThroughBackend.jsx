@@ -7,6 +7,7 @@ const CruiseThroughBackend = () => {
       </h1>
 
       <div className='grid grid-cols-2 gap-x-5 gap-y-28 items-center'>
+        {/* first  */}
         <div className='textBox  justify-self-end'>
           <span className='num -top-[100px] -left-[100px]'>#1</span>
           <h3 className='title '>
@@ -31,6 +32,7 @@ const CruiseThroughBackend = () => {
         <div className='imgBox'>
           <img src='/images/cruiseSection/one.png' width={'100%'} alt='one' />
         </div>
+        {/* second */}
         <div className='imgBox'>
           <img src='/images/cruiseSection/two.png' alt='two' />
         </div>
@@ -51,9 +53,10 @@ const CruiseThroughBackend = () => {
           <img
             src='/images/cruiseSection/dotted2.svg'
             alt='dot line'
-            className='absolute bottom-105% -left-[50%]'
+            className='absolute  -left-[50%]'
           />
         </div>
+        {/* third */}
         <div className='textBox  justify-self-end'>
           <span className='num -top-[120px] -left-[120px]'>#3</span>
           <h3 className='title'>Test. Build. Deploy.</h3>

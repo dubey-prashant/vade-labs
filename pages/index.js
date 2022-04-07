@@ -1,11 +1,11 @@
 /* eslint-disable @next/next/no-img-element */
-import CruiseThroughBackend from '../components/CruiseThroughBackend';
-import CTA from '../components/CTA';
-import Footer from '../components/Footer';
-import Header from '../components/Header';
-import HeroSection from '../components/HeroSection';
 import HR from '../components/HR';
+import CTA from '../components/CTA';
+import Footer from '../components/partials/Footer';
+import Header from '../components/partials/Header';
+import HeroSection from '../components/HeroSection';
 import SkipTheHassle from '../components/SkipTheHassle';
+import CruiseThroughBackend from '../components/CruiseThroughBackend';
 
 export default function Home() {
   return (
